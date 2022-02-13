@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #address {
+            width: 38%;
+            /* padding: 30px; */
+        }
+
+        #image {
+            border: 2px solid black;
+            border-radius: 5px;
+            /* padding: 8px; */
+            width: 39%;
+            text-align: center;
+            height: 70px;
+        }
+
+        input {
+            display: block;
+            padding: 15px;
+            margin: 15px auto;
+            width: 38%;
+            border-radius: 5px;
+        }
+
+        #selector {
+            display: block;
+            padding: 10px;
+            margin: 10px auto;
+            width: 38%;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+
+        .btn {
+            display: block;
+            padding: 5px;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <h1>Online Voting System</h1>
+    </div>
+
+    <div id="bodysection">
+        <h2>Registration</h2>
+        <form action="#">
+            <input type="text" name="phone" placeholder="Enter your Phone">
+            <input type="text" name="password" placeholder="Enter your Password">
+            <input type="text" name="name" placeholder="Enter your Name">
+            <input type="text" name="confirm password" placeholder="Confirm Password">
+            <input id="address" type="text" name="" placeholder="Address">
+            <center>
+                <div id="image">
+                    Upload Photo:<input type="file" name="photo" placeholder="Upload Photo">
+                </div>
+                <div id="selector">
+                    Select Role:<select name="Role">
+                        <option value="1">Voter</option>
+                        <option value="2">Group</option>
+                    </select>
+                </div>
+            </center>
+
+            <button class="btn">Register</button>
+            <div class="href">
+                Already You have? <a href="../index.html">Login here</a>
+            </div>
+        </form>
+    </div>
+
+    </div>
+</body>
+
+</html>

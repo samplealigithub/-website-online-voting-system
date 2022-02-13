@@ -1,0 +1,43 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+body{
+    background-color:  rgb(164, 230, 208);
+    text-align: center;
+}
+.header{
+    text-align: center;
+} 
+.small-heading{
+    text-align: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    text-align: center;
+    margin: 5px;
+    padding: 6px; 
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.href{
+    display: block;
+    text-align: center;
+}
+select{
+    margin: 5px;
+    padding: 6px;
+    width: 183px;
+}

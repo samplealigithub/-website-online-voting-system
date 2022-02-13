@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Voting System</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        #address {
+            width: 38%;
+            padding: 30px; 
+        }
+
+         #image {
+            border: 2px solid black;
+            border-radius: 5px;
+            padding: 8px;
+            width: 39%;
+            text-align: center;
+            height: 70px; 
+        }
+
+        #container {
+            display: block;
+            padding: 15px;
+            margin: 15px auto;
+            width: 38%;
+            border-radius: 5px;
+        }
+
+        select {
+            display: block;
+            padding: 10px;
+            margin: 10px auto;
+            width: 38%;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+
+        .btn {
+            display: block;
+            padding: 8px;
+            margin: 10px auto; 
+            cursor: pointer;
+            background-color: rgb(103, 103, 173);
+        }
+        .btn:hover{
+            background-color: white;
+            
+        }
+        body{
+            background-color: rgb(164, 230, 208);
+        }
+        .header{
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+        }
+        input {
+            display: block;
+            padding: 15px;
+            margin: 15px auto;
+            width: 38%;
+            border-radius: 5px;
+        }
+        .href{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1 class="heading">Online Voting System</h1>
+    </div>
+    <h2 class="small-heading">Login </h2>
+
+    <div class="container">
+        <form action="">
+            <div class="form-group">
+                <input type="text" name="name" id="name" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="phone" name="name" id="phone" placeholder="Enter your Phone">
+            </div>
+            <div class="form-group">
+                <input type="password" name="name" id="phone" placeholder="Enter your Password">
+            </div>
+            <select name="Role">
+                <option value="1">Voter</option>
+                <option value="2">Group</option>
+            </select>
+            <button class="btn">Login</button>
+            <div class="href">
+                New user? <a href="">Register here</a>
+            </div>
+        </form>
+    </div>
+    <section>
+        <div class="poll">
+            <div class="question"></div>
+            <div class="answers"></div>
+        </div>
+    </section>
+   
+   <script>
+       
+   </script>
+</body>
+
+</html>
